@@ -18,7 +18,7 @@ public class GitHubSelenidePage {
 
     // actions
     public GitHubSelenidePage openPage() {
-        open("selenide/selenide");
+        open("https://github.com/selenide/selenide");
         headerTitle.shouldHave(text("selenide"));
         return this;
     }
